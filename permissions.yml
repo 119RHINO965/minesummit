@@ -1,0 +1,313 @@
+groups:
+  Default:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: true
+      prefix: '&8(&7Beginner&8)'
+      suffix: ''
+  Member:
+    inheritance:
+    - Default
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&3(&7Member&3)'
+      suffix: ''
+  Rank_One:
+    inheritance:
+    - Default
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&4I&0)'
+      suffix: ''
+  Rank_Two:
+    inheritance:
+    - Rank_One
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&cII&0)'
+      suffix: ''
+  Rank_Three:
+    inheritance:
+    - Rank_Two
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&6III&0)'
+      suffix: ''
+  Rank_Four:
+    inheritance:
+    - Rank_Three
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&eIV&0)'
+      suffix: ''
+  Rank_Five:
+    inheritance:
+    - Rank_Four
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&aV&0)'
+      suffix: ''
+  Rank_Six:
+    inheritance:
+    - Rank_Five
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&bVI&0)'
+      suffix: ''
+  Rank_Seven:
+    inheritance:
+    - Rank_Six
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&9VII&0)'
+      suffix: ''
+  Rank_Eight:
+    inheritance:
+    - Rank_Seven
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&1VIII&0)'
+      suffix: ''
+  Rank_Nine:
+    inheritance:
+    - Rank_Eight
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&5IX&0)'
+      suffix: ''
+  Rank_Ten:
+    inheritance:
+    - Rank_Nine
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&dX&0)'
+      suffix: ''
+  Rank_Eleven:
+    inheritance:
+    - Rank_Ten
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&4XI&0)'
+      suffix: ''
+  Rank_Twelve:
+    inheritance:
+    - Rank_Eleven
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&cXII&0)'
+      suffix: ''
+  Rank_Thirteen:
+    inheritance:
+    - Rank_Twelve
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&6XIII&0)'
+      suffix: ''
+  Rank_Fourteen:
+    inheritance:
+    - Rank_Thirteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&eXIV&0)'
+      suffix: ''
+  Rank_Fifteen:
+    inheritance:
+    - Rank_Fourteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&aXV&0)'
+      suffix: ''
+  Rank_Sixteen:
+    inheritance:
+    - Rank_Fifteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&bXVI&0)'
+      suffix: ''
+  Rank_Seventeen:
+    inheritance:
+    - Rank_Sixteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&9XVII&0)'
+      suffix: ''
+  Rank_Eighteen:
+    inheritance:
+    - Rank_Seventeen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&1XVIII&0)'
+      suffix: ''
+  Rank_Nineteen:
+    inheritance:
+    - Rank_Eighteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&5XIX&0)'
+      suffix: ''
+  Rank_Twenty:
+    inheritance:
+    - Rank_Nineteen
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&0(&dXX&0)'
+      suffix: ''
+  Special_Yellow:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Pink:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Red:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Aqua:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Lime:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Blue:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Special_Rainbow:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: ''
+      suffix: ''
+  Staff_R:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&d{&3Staff&d}'
+      suffix: ''
+  Staff_C:
+    inheritance:
+    - Staff_R
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&e{&3Staff&e}'
+      suffix: ''
+  Staff_G:
+    inheritance:
+    - Staff_C
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&a{&3Staff&a}'
+      suffix: ''
+  Staff_S:
+    inheritance:
+    - Staff_G
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&9{&3Staff&9}'
+      suffix: ''
+  Staff_A:
+    inheritance:
+    - Staff_S
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&c{&3Admin&c}'
+      suffix: ''
+  Staff_O:
+    inheritance: []
+    permissions:
+    - perm.s
+    options:
+      default: false
+      prefix: '&6{&2Owner&6}'
+      suffix: ''
+users:
+  00000000-YOUR-UUID-HERE-000000000000:
+    options:
+      name: YourPlayerName
+    group:
+    - groupname
+schema-version: 1
