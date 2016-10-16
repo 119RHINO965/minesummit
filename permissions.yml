@@ -2,7 +2,8 @@ groups:
   Default:
     inheritance: []
     permissions:
-    - perm.s
+    - -bukkit.command.plugins
+    - -bukkit.command.version
     options:
       default: true
       prefix: '&8(&7Beginner&8)'
